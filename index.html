@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/ico" />
+    <title>Nikolai Romanov. Web developer</title>
+  </head>
+  <body>
+    <div id="navigation-bar">
+      <div class="navigation-bar-item">
+        <a href="#section-about">About</a>
+      </div>
+      <div class="navigation-bar-item">
+        <a href="#section-skills">Skills</a>
+      </div>
+      <div class="navigation-bar-item">
+        <a href="#section-portfolio">Portfolio</a>
+      </div>
+      <div class="navigation-bar-item">
+        <a href="#section-experience">Experience</a>
+      </div>
+      <div class="navigation-bar-item">
+        <a href="#section-contacts">Contacts</a>
+      </div>
+    </div>
+    <div id="main-wrapper">
+      <section id="section-about">
+        <div id="about-text-wrapper">
+          <div id="about-header-wrapper">
+            <h1>
+              <span class="accent-color">Hello!</span> My name is Nikolai Romanov<br>
+            </h1>
+            <h1>
+              I can do something great<br>
+              things for you
+            </h1>
+          </div>
+          <div id="about-btn-wrapper">
+            <form action="#section-contacts">
+              <button id="about-btn">Let's check</button>
+            </form>
+          </div>
+        </div>
+        <div id="about-img-wrapper">
+          <img id="about-img" src="assets/images/laptop.jpeg" alt="Web developer laptop image">
+        </div> 
+      </section>
+      <section id="section-skills">
+        <div class="skills-column">
+          <div class="skills-header">
+            <h1><span class="accent-color">Hard</span> skills</h1>
+          </div>
+          <div class="skills-element">
+            HTML (HTML5)
+          </div>
+          <div class="skills-element">
+            CSS (CSS3)
+          </div>
+          <div class="skills-element">
+            JavaScript (ES6, OOP, Mocha)
+          </div>
+          <div class="skills-element">
+            Java (8, 11, 17, OOP, Core, Beans, Spring, Hibernate)
+          </div>
+          <div class="skills-element">
+            C, C++ (Basics, OOP)
+          </div>
+          <div class="skills-element">
+            Git (GitHub, DigitalOcean, BitBucket)  
+          </div>
+          <div class="skills-element">
+            Linux, Solaris, MS Windows family, MacOS
+          </div>
+          <div class="skills-element">
+            SQL (MySQL, MSSQL) WebServers (Apache, Nginx) ApplicationServers (TomCat)
+          </div>
+          <div class="skills-element">
+            Agile, SCRUM, Kanban, TDD, Jira, Trello, Kaiten
+          </div>
+          <div class="skills-element">
+            English B2
+          </div>
+        </div>
+        <div class="skills-column">
+          <div class="skills-header">
+            <h1><span class="accent-color">Soft</span> skills</h1>
+          </div>
+          <div class="skills-element">
+            I know how to work in a team, I have experience in communication with designers, managers and other developers
+          </div>
+          <div class="skills-element">
+            I welcome constructive criticism and am always happy to find new points of professional and personal growth
+          </div>
+          <div class="skills-element">
+            I am attentive to the details of the terms of reference
+          </div>
+          <div class="skills-element">
+            I am demanding of the quality of my code, I follow the code-style
+          </div>
+          <div class="skills-element">
+            I am responsible about deadlines
+          </div>
+          <div class="skills-element">
+            I am motivated to improve my skills, constantly studying new technologies in my field of activity
+          </div>
+          <div class="skills-element">
+            I have experience in mentoring, training of junior specialists
+          </div>
+        </div>
+      </section>
+      <section id="section-portfolio">
+        <div id="portfolio-header">
+          <h1>My <span class="accent-color">portfolio</span></h1>
+        </div>
+        <div class="portfolio-element">
+            <div class="portfolio-element-media-wrapper">
+              <img 
+                class="portfolio-element-media"
+                src="assets/images/portfolio-element-0.jpg"
+                alt="NEFU distant learning service main page screenshoot"
+                title="NEFU distatn learning main page view"
+              >
+            </div>
+            <div class="portfolio-element-text-wrapper">
+              <h2 class="portfolio-element-text-header">
+                NEFU Distant learning service
+              </h2>
+              <p class="portfolio-element-text-description">
+                Distance learning service of the North-Eastern Federal University.
+                Designed to host educational materials developed by teachers,
+                student access trough штеуктуе and support for distance learning.
+              </p>
+              <p>
+                Hosted on Linux, using apache2, php, MySQL, LMS Moodle.
+              </p>
+            </div>
+        </div>
+        <div class="portfolio-element">
+            <div class="portfolio-element-media-wrapper">
+              <img 
+                class="portfolio-element-media"
+                src="assets/images/portfolio-element-1.webp"
+                alt="Antiquaria mobile game start screen view"
+                title="Antiquaria game start screen"
+              >
+            </div>
+            <div class="portfolio-element-text-wrapper">
+              <h2 class="portfolio-element-text-header">
+                Antiquaria: The mystery of the moon rabbit
+              </h2>
+              <p class="portfolio-element-text-description">
+                Casual game in genre Hiden objects for mobile platforms and web browser.
+              </p>
+              <p>
+                Used Java, LibGDX, Android, iOS, WebGL.
+              </p>
+            </div>
+        </div>
+        <div class="portfolio-element">
+            <div class="portfolio-element-media-wrapper">
+              <video class="portfolio-element-media" autoplay muted loop controls 
+                title="Spot the Difference game promo video">
+                <source src="assets/video/portfolio-element-2.mp4" type="video/mp4">
+                Your browser doesn't support this video format
+              </video>
+            </div>
+            <div class="portfolio-element-text-wrapper">
+              <h2 class="portfolio-element-text-header">
+                Spot the Difference Pet Parade
+              </h2>
+              <p class="portfolio-element-text-description">
+                Casual game in genre Find differences for mobile platforms and web browser.
+              </p>
+              <p>
+                Used Java, LibGDX, Android, iOS, WebGL.
+              </p>
+            </div>
+        </div>
+      </section>
+      <section id="section-experience">
+        <div id="experience-header">
+          <h1>Work <span class="accent-color">experience</span></h1>
+        </div>
+        <div id="experience-elements-wrapper">
+          <div class="experience-element">
+            <div class="experience-first-element-line-wrapper">
+              <div class="experience-element-text-wrapper">
+                <p><span class="experience-date">March 2018 - August 2023</span></p>
+                <h2 class="experience-place-name">Bergen games</h2>
+                <p class="experience-role-name">developer</p>
+                <p class="experience-description">
+                  Development of mobile games in Java using the libJDX framework for mobile 
+                  platforms and web browsers. Development of player data storage services
+                  based on Spring and Hibernate. Development and support of internal services 
+                  and company projects.
+                </p>
+              </div>
+              <div class="experience-icons-wrapper">
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/java.png"
+                    alt="Java icon"
+                    title="Java"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/libgdx.png"
+                    alt="libGDX icon"
+                    title="libGDX"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/hibernate.png"
+                    alt="Hibernate icon"
+                    title="Hibernate"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/spring.png"
+                    alt="Spring icon"
+                    title="Spring"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/json.png"
+                    alt="JSON icon"
+                    title="JSON"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/xml.png"
+                    alt="XML icon"
+                    title="XML"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/android.png"
+                    alt="Android icon"
+                    title="Android"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/apple.png"
+                    alt="Apple icon"
+                    title="Apple"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/git.png"
+                    alt="Git icon"
+                    title="Git"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/github.png"
+                    alt="GitHub icon"
+                    title="GitHub"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/jira.png"
+                    alt="Jira icon"
+                    title="Jira"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/digital_ocean.png"
+                    alt="Digital ocean icon"
+                    title="Digiatl ocean"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/apache_tomcat.png"
+                    alt="TomCat icon"
+                    title="Apache TomCat"
+                  />
+              </div>
+            </div>
+          </div>
+          <div class="experience-element">
+            <div class="experience-element-line-wrapper">
+              <div class="experience-element-text-wrapper">
+                <p><span class="experience-date">October 2009 - Febuary 2018</span></p>
+                <h2 class="experience-place-name">North-Eastern Federal University</h2>
+                <p class="experience-role-name">system administrator</p>
+                <p class="experience-description">
+                  Setting up and maintaining a distance learning system. Administration of 
+                  operating systems of the Linux, Solaris, Windows family, Apache2 and Nginx 
+                  web servers, MySQL database servers. Configuration and setup of network 
+                  infrastructure, ensuring availability of services.
+                </p>
+              </div>
+              <div class="experience-icons-wrapper">
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/linux.png"
+                    alt="Linux icon"
+                    title="Linux"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/apache.png"
+                    alt="Apache 2 webserver icon"
+                    title="Apache2 webserver"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/nginx.png"
+                    alt="Nginx icon"
+                    title="Nginx webserver"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/moodle.png"
+                    alt="Moodle icon"
+                    title="Moodle"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/php.png"
+                    alt="PHP icon"
+                    title="PHP"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/lan.png"
+                    alt="LAN icon"
+                    title="LAN"
+                  />
+              </div>
+            </div>
+          </div>
+          <div class="experience-element">
+            <div class="experience-last-element-line-wrapper">
+              <div class="experience-element-text-wrapper">
+                <p><span class="experience-date"> March 2006 - Semptember 2009</span></p>
+                <h2 class="experience-place-name">Level 6: computer club</h2>
+                <p class="experience-role-name">system administrator</p>
+                <p class="experience-description">
+                  Assembly, setup, technical maintenance of a fleet of computers for games. 
+                  Administration of Windows operating systems. Installation and updating of 
+                  user software. Configuration and ensuring uninterrupted operation of the 
+                  local network.
+                </p>
+              </div>
+              <div class="experience-icons-wrapper">
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/windows.png"
+                    alt="Windows icon"
+                    title="Windows"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/pc.png"
+                    alt="PC icon"
+                    title="Personal computer"
+                  />
+                  <img 
+                    class="experience-icon"
+                    src="assets/icons/png/lan.png"
+                    alt="LAN icon"
+                    title="LAN"
+                  />
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="section-contacts">
+        <div class="contacts-element">
+          <div class="contacts-text-wrapper">
+            <p class="contacts-text-header">
+              Do you want to ask<br>
+              <span class="accent-color">something interesting?</span>
+            </p>
+            <p class="contacts-text-description">
+              Contact me. I am in touch mon-fri from 9 am to 6 pm (CET).
+            </p>
+          </div>
+          <div class="contacts-icons-wrapper">
+              <a href="https://github.com/kolya-rm" target="_blank">
+                <img 
+                    class="contact-icon"
+                    src="assets/icons/svg/github.svg"
+                    alt="GitHub icon"
+                    title="GitHub"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/kolyarm/" target="_blank">
+                <img 
+                    class="contact-icon"
+                    src="assets/icons/svg/linkedin.svg"
+                    alt="LinkedIn icon"
+                    title="LinkedIn"
+                />
+              </a>
+              <a href="mailto:kolya.rm@gmail.com" target="_blank">
+                <img 
+                    class="contact-icon"
+                    src="assets/icons/svg/email.svg"
+                    alt="E-mail"
+                    title="email"
+                />
+              </a>
+              <a href="" target="_blank">
+                <img 
+                    class="contact-icon"
+                    src="assets/icons/svg/slack.svg"
+                    alt="Slack icon"
+                    title="Slack"
+                />
+              </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>
